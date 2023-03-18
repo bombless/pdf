@@ -15,7 +15,7 @@ To build additional parts, pass `--package=read` to build the subcrate you are i
 Examples are located in `pdf/examples/` and can be executed using:
 
 ```
-cargo run --example {content,metadata,names,read,text} -- <files/{choose a pdf}>
+cargo run --example {content,metadata,names,read} -- <files/{choose a pdf}>
 ```
 
 # Renderer and Viewer
